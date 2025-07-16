@@ -1,4 +1,5 @@
 # 🧵 Predicting Product Ratings from Fashion Reviews
+This project investigates how customer reviews, sentiment, and product lifecycle stages impact rating predictions in the fashion retail domain. Using over 2.5 million Amazon reviews, it builds a robust modeling pipeline that combines NLP, aspect tagging, and temporal analysis to generate consumer insight.
 
 ## 💡 Project Objective
 Explore how sentiment, aspect mentions, and product lifecycle stages influence customer ratings in fashion retail.
@@ -18,6 +19,8 @@ Explore how sentiment, aspect mentions, and product lifecycle stages influence c
 - **Algorithm**: Random Forest Regressor
 - **Target**: Star rating (1.0–5.0)
 - **Features**: Sentiment, lifecycle stage, aspect flags, metadata
+
+📓 See full modeling workflow in [FirstProject.ipynb](FirstProject.ipynb)
 
 ## 📊 Evaluation
 - MAE: **0.81**
